@@ -1,13 +1,9 @@
 @media (min-width: 0) {
-  .header {
+  .home {
     background: url(/assets/background.jpg) no-repeat center/cover fixed;
   }
 
   .nav {
-    display: none;
-  }
-
-  .nav-image {
     display: none;
   }
 }
