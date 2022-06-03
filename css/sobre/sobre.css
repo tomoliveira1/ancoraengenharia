@@ -13,7 +13,7 @@
     text-align: center;
     height: 85vh;
     position: relative;
-    background-color: #eeedff;
+    background-color: #212121;
     min-width: none;
 }
 
@@ -41,13 +41,13 @@
 .sobre-title {
     font-size: 3rem;
     font-weight: 700;
-    color: #8f8f8f
+    color: #c7c7c7
 }
 
 .sobre-description {
     font-size: 1.5rem;
     font-weight: 500;
-    color: #7b7b7b;
+    color: #e7e7e7;
 }
 
 
@@ -92,7 +92,7 @@
 @media (max-width: 1000px)  {
     .sobre {
         min-height: 700px;
-        height: 720px;
+        height: auto;
         flex-direction: column;
     }
     

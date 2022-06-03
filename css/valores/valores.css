@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     background-color: #ffffff;
 }
@@ -23,7 +23,7 @@
 
 .elipses {
     width: 200px;
-    margin: 2rem 3rem 0rem;
+    margin: 2rem 3rem 0;
 }
 
 .statement-title {
@@ -41,7 +41,7 @@
     .valores {
         width: 100%;
         min-height: 700px;
-        height: 100vh;
+        height: auto;
         justify-content: center;
     }
 
@@ -55,6 +55,7 @@
     }
 
     .elipses {
-        display: none;
+        width: 100px;
+        margin: 1rem 1.5rem 0;
     }
 }

@@ -34,7 +34,7 @@
   justify-content: center;
   height: 300px;
   border-radius: 10px;
-  background-color: var(--white);
+  background-color: var(#ffff);
   box-shadow: 5px 5px 20px #ebebeb, -5px -5px 20px #ebebeb;
   padding: 1.5rem;
 }
@@ -64,11 +64,11 @@
   position: relative;
   display: block;
   width: calc(150% + 1.3px);
-  height: 65px;
+  height: 95px;
 }
 
 .custom-shape-divider-bottom-1654118195 .shape-fill {
-  fill: #eeedff;
+  fill: #212121;
 }
 
 /** For tablet devices **/
@@ -90,7 +90,7 @@
 
 @media (max-width: 1000px)  {
   .servicos {
-    height: 100%;
+    height: auto;
   }
 
   .cards {
