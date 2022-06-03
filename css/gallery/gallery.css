@@ -1,0 +1,43 @@
+.gallery {
+  height: 85vh;
+  background-color: #ffff;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.gallery-title {
+    font-size: 2.8rem;
+}
+
+input {
+  display: none;
+}
+
+.top-content {
+    background-color: aqua;
+    width: 90%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.pic {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
+
+.photo-gallery {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
