@@ -13,6 +13,9 @@
 }
 
 @media (min-width: 1000px) {
+  .header {
+    background: url(/assets/background.jpg) no-repeat center/cover fixed;
+  }
 
   .nav {
     display: flex;
