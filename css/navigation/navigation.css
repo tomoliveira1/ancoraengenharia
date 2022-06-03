@@ -1,6 +1,6 @@
 @media (min-width: 0) {
   .home {
-    background: url(/assets/background.jpg) no-repeat center/cover fixed;
+    background: url(/assets/background.jpg) no-repeat center/cover;
   }
 
   .nav {
@@ -10,7 +10,7 @@
 
 @media (min-width: 1000px) {
   .header {
-    background: url(/assets/background.jpg) no-repeat center/cover fixed;
+    background: url(/assets/background.jpg) no-repeat center/cover;
   }
 
   .nav {
