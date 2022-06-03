@@ -67,3 +67,10 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-device-width: 1000px)  {
+  .header {
+    background: url(/assets/background-mobile.png) no-repeat center/cover fixed;
+  }  
+}
+
