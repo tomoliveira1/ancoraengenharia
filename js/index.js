@@ -10,6 +10,11 @@ ScrollReveal().reveal(".image, .text", {
   origin: "left"
 })
 
+ScrollReveal().reveal(".statement", {
+  delay: 100,
+  origin: "right"
+})
+
 Atropos({
   el: '.my-atropos',
   // rest of parameters

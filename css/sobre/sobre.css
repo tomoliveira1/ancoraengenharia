@@ -89,7 +89,7 @@
     }
 }
 
-@media only screen and (max-device-width: 1000px)  {
+@media (max-width: 1000px)  {
     .sobre {
         min-height: 700px;
         height: 720px;
