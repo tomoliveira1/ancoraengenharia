@@ -17,18 +17,21 @@ ScrollReveal().reveal(".statement", {
 
 Atropos({
   el: '.my-atropos',
+  rotateTouch: window.innerWidth > 1000  ? true : false,
   // rest of parameters
-  shadow: false
+  shadow: false,
 });
 
 Atropos({
   el: '.my-atropos-1',
+  rotateTouch: window.innerWidth > 1000  ? true : false,
   // rest of parameters
   shadow: false
 });
 
 Atropos({
   el: '.my-atropos-2',
+  rotateTouch: window.innerWidth > 1000  ? true : false,
   // rest of parameters
   shadow: false
 });
