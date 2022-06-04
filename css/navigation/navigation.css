@@ -1,10 +1,10 @@
+.header {
+  background: url(/assets/background.jpg) no-repeat center/cover;
+}
+
 @media (min-width: 0) {
   .nav {
     display: none;
-  }
-  
-  .header {
-    background: url(/assets/background.jpg) no-repeat center/cover;
   }
 }
 
