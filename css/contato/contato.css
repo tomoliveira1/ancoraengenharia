@@ -1,0 +1,132 @@
+.contato {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    position: relative;
+    background-color: #ffff;
+}
+
+.illustration-mobile {
+    display: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.contato-title {
+    font-size: 3.5rem;
+    color: #F9A826;
+}
+
+.contato-subtitle {
+    font-size: 1.8rem;
+    color: #929292;
+    margin-bottom: 1.5rem;
+}
+
+.submit-button {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #F9A826;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border: none;
+    transition: all ease 0.5s;
+}
+.submit-button:hover {
+    background-color: #ff9d00;
+}
+
+input, textarea {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #eeee;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-way {
+    display: flex;
+    align-items: center;
+}
+
+.contacts {
+    margin: 5rem;
+}
+
+.building {
+    width: 300px;
+    height: 300px;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    margin: 1rem;
+}
+
+.contact-text {
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 700px) {
+    .contato {
+        min-height: 700px;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacts {
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+    .illustration-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .illustration {
+        display: none;
+    }
+
+    .contact-text {
+        font-size: 1.2rem;
+    }
+
+    .contact-icon {
+        width: 25px;
+        margin: 0.5rem;
+    }
+
+    .building {
+        width: 180px;
+        height: 180px;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .submit-button {
+        margin-bottom: 1rem;
+    }
+}

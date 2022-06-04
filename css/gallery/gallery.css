@@ -36,11 +36,11 @@
   }
 
   .photos {
-    max-width: 250px;
+    max-width: 300px;
   }
 
   .photo {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
   }
 }

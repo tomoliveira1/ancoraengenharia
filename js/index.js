@@ -12,7 +12,7 @@ ScrollReveal().reveal(".image, .text", {
 
 ScrollReveal().reveal(".statement", {
   delay: 100,
-  origin: "right"
+  origin: "top"
 })
 
 Atropos({

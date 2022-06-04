@@ -1,8 +1,4 @@
 @media (min-width: 0) {
-  .home {
-    background: url(/assets/background.jpg) no-repeat center/cover;
-  }
-
   .nav {
     display: none;
   }
