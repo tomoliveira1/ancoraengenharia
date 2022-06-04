@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/gallery/gallery.css">
     <link rel="stylesheet" href="css/valores/valores.css">
     <link rel="stylesheet" href="css/contato/contato.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/atropos@1.0.2/atropos.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/atropos@1.0.2/atropos.min.css">
@@ -43,7 +44,7 @@
                     <div class="line"></div>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Contato</a>
+                    <a href="#contato">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -189,7 +190,7 @@
         </div>
     </section>
 
-    <section class="contato">
+    <section class="contato" id="contato">
         <div class="form">
             <div class="illustration-mobile">
                 <img src="assets/undraw_building_re_xfcm.svg" alt="ilustração de uma construção" class="building">
@@ -197,10 +198,10 @@
             <h1 class="contato-title">Me conte</h1>
             <h2 class="contato-subtitle">Como posso ajudar?</h2>
             <form action="https://formsubmit.co/wlucio904@gmail.com" method="POST">
-                <input type="text" id="name" name="name" placeholder="Nome">
-                <input type="email" id="email" name="email" placeholder="Email">
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
                 <input type="hidden" name="_captcha" value="false">
-                <textarea type="text" id="message" name="message" rows="6" placeholder="Nos conte mais sobre"></textarea>
+                <textarea type="text" required id="message" name="message" rows="6" placeholder="Nos conte mais sobre"></textarea>
                 <button type="submit" class="submit-button">Enviar</button>
             </form>
         </div>
@@ -220,24 +221,30 @@
         </div>
     </section> 
 
-   <!--  <footer>
+   <footer>
         <img src="assets/logo.svg" alt="logo" class="nav-logo">
-        <ul class="social-net">
-            <li class="social-item">
-                <a href="http://instagram.com/ancoraengenhariabh" target="_blank">
-                    <img src="assets/in" alt="">
-                </a>
-            </li>
-
-            <li class="social-item">
-                <a href="http://instagram.com/ancoraengenhariabh" target="_blank" ></a>
-            </li>
-
-            <li class="social-item">
-                <a href="http://instagram.com/ancoraengenhariabh" target="_blank" ></a>
-            </li>
-        </ul>
-    </footer> -->
+        <p class="footer-text">Fique por dentro ou chame nas redes sociais abaixo.</p>
+        <p class="follow">FOLLOW</p>
+        <div class="social">
+            <ul class="social-net">
+                <li class="social-item">
+                    <a href="http://instagram.com/ancoraengenhariabh" target="_blank">
+                        <img src="assets/instagram.svg" alt="" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="https://br.linkedin.com/in/deilda-oliveira-7989596b" target="_blank">
+                        <img src="assets/linkedin.svg" alt="" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="https://wa.me/+5531996970085" target="_blank">
+                        <img src="assets/whatsapp.svg" alt="" class="social-icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/atropos@1.0.2/atropos.min.js"></script>

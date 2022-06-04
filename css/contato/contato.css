@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    height: auto;
     position: relative;
     background-color: #ffff;
 }

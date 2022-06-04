@@ -2,12 +2,13 @@
   .nav {
     display: none;
   }
-}
-
-@media (min-width: 1000px) {
+  
   .header {
     background: url(/assets/background.jpg) no-repeat center/cover;
   }
+}
+
+@media (min-width: 1000px) {
 
   .nav {
     display: flex;
