@@ -6,10 +6,6 @@
   .nav {
     display: none;
   }
-
-  .header {
-    background: url(/assets/background.jpg) no-repeat center/cover;
-  }
 }
 
 @media (min-width: 1000px) {
@@ -66,11 +62,5 @@
   .nav-item:hover .line {
     width: 100%;
   }
-}
-
-@media (max-width: 1000px)  {
-  .header {
-    background: url(/assets/background-mobile.png) no-repeat center/cover fixed;
-  }  
 }
 
